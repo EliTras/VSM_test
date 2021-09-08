@@ -1,0 +1,26 @@
+/Volumes/Samsung_T5/WORK/LAVORI/PYTHON/TEST/training/penny2/BO
+/Volumes/Samsung_T5/WORK/LAVORI/PYTHON/TEST/training/DATA/obs_sar1.txt /Volumes/Samsung_T5/WORK/LAVORI/PYTHON/TEST/training/DATA/obs_sar2.txt
+/Volumes/Samsung_T5/WORK/LAVORI/PYTHON/TEST/training/DATA/GPS_data.txt
+None
+None
+None
+None
+1.0
+5.0
+0.0
+0.0
+0.0
+0.1
+5e9
+0.25
+1
+2
+422000. 432000. X_c
+4515000. 4525000. Y_c
+2000. 7000. Z_c
+500. 4000. radius
+1e-4 1e-2 DP_mu
+1
+12
+8000
+y 3000
