@@ -1,0 +1,126 @@
+*******************************************************************************
+   VSM
+
+   Volcanic and Seismic source Modelling
+
+   Author: Elisa Trasatti, elisa.trasatti@ingv.it
+   Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
+
+   Thanks to: M. Sambridge (NA inversion)
+              N. Piana Agostinetti (first fortran version)
+              And others for python codes (mostly grabbed from GitHub and PyPI)
+
+   Created      2007
+   Last update  September 2021
+
+   License: E. Trasatti, covered by GNU-GPL License
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+      * Redistributions of source code must retain the above copyright 
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright 
+ 	notice, this list of conditions and the following disclaimer in 
+ 	the documentation and/or other materials provided with the distribution.
+      * Please cite until published as
+        Trasatti, E. (2019). Volcano and Seismic source Modelling - VSM.
+ 	www.rohub.org/rodetails/volcano_source_moddelling_vsm-release/overview,
+        https://doi.org/10.24424/ro-id.HRFPNERWFQ
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************
+
+
+*******************************************************************************
+VSM launched on 2021-09-21 11:56:23.949180
+VSM ended on    2021-09-21 12:18:30.871638
+*******************************************************************************
+
+
+*******************************************************************************
+  Misfits 
+*******************************************************************************
+Dataset	n.Data	Weight	Misfit_null	Misfit
+SAR	5530	  0.1667	  30.183	   4.378 
+GPS	14	  0.8333	 933.810	  44.347 
+LEV	 - 	 -	    -		  -
+EDM	 - 	 -	    -		  -
+TLT	 - 	 -	    -		  -
+SRN	 - 	 -	    -		  -
+
+Total misfit of the preferred model   37.686
+
+*******************************************************************************
+  Forward Models 
+*******************************************************************************
+Fault or Dike (Okada, 1985) with mode R
+
+*******************************************************************************
+  Unknowns 
+*******************************************************************************
+Parameter	Mean		Sigma		Range			Status
+xtlc		4.25784e+05	2.32999e+02	(422000.0, 432000.0)	 true
+ytlc		4.51971e+06	8.09978e+01	(4515000.0, 4525000.0)	 true
+dtlc		3.79548e+03	3.08425e+01	(2000.0, 7000.0)	 true
+length		8.10763e+02	4.51293e+02	(500.0, 4000.0)	 true
+width		2.40482e+03	2.22476e+02	(500.0, 4000.0)	 true
+strike		9.00000e+01	0.0		(90.0, 90.0) fixed
+dip		1.23617e-01	2.66081e-02	(0.1, 30.0)	 true
+param1		0.00000e+00	0.0		(0.0, 0.0) fixed
+param2		0.00000e+00	0.0		(0.0, 0.0) fixed
+opening		3.53091e+00	7.14275e-01	(0.1, 4.0)	 true
+
+*******************************************************************************
+  Global Optimization 
+*******************************************************************************
+Bayesian Optimization 
+n.Rand.Walks	n.Steps
+14		8000
+
+Total number of models generated 112000
+
+*******************************************************************************
+  All input - VSM style 
+*******************************************************************************
+../USECASE/fault2BO/
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt 
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+0.16666666666666666
+0.8333333333333334
+0.0
+0.0
+0.0
+0.0
+5.00e+09
+0.25
+1
+5 R
+422000.0	432000.0	xtlc
+4515000.0	4525000.0	ytlc
+2000.0	7000.0	dtlc
+500.0	4000.0	length
+500.0	4000.0	width
+90.0	90.0	strike
+0.1	30.0	dip
+0.0	0.0	param1
+0.0	0.0	param2
+0.1	4.0	opening
+1
+14 10
+8000
+y 3000
