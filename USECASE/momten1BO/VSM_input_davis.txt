@@ -1,0 +1,30 @@
+../USECASE/momten1BO
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+1.0
+5.0
+0.0
+0.0
+0.0
+0.1
+5e9
+0.25
+1
+4
+422000. 432000. X_c
+4515000. 4525000. Y_c
+2000. 7000. Z_c
+1e6 1e8
+1e6 1e8
+1e6 1e8
+0 0 
+0 0 
+0 0
+1
+14
+8000
+y 3000

@@ -1,0 +1,124 @@
+*******************************************************************************
+   VSM
+
+   Volcanic and Seismic source Modelling
+
+   Author: Elisa Trasatti, elisa.trasatti@ingv.it
+   Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
+
+   Thanks to: M. Sambridge (NA inversion)
+              N. Piana Agostinetti (first fortran version)
+              And others for python codes (mostly grabbed from GitHub and PyPI)
+
+   Created      2007
+   Last update  September 2021
+
+   License: E. Trasatti, covered by GNU-GPL License
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+      * Redistributions of source code must retain the above copyright 
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright 
+ 	notice, this list of conditions and the following disclaimer in 
+ 	the documentation and/or other materials provided with the distribution.
+      * Please cite until published as
+        Trasatti, E. (2019). Volcano and Seismic source Modelling - VSM.
+ 	www.rohub.org/rodetails/volcano_source_moddelling_vsm-release/overview,
+        https://doi.org/10.24424/ro-id.HRFPNERWFQ
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************
+
+
+*******************************************************************************
+VSM launched on 2021-09-22 10:38:29.540792
+VSM ended on    2021-09-22 10:39:15.450236
+*******************************************************************************
+
+
+*******************************************************************************
+  Misfits 
+*******************************************************************************
+Dataset	n.Data	Weight	Misfit_null	Misfit
+SAR	5530	  0.5000	  30.183	   4.588 
+GPS	14	  0.5000	 933.810	  19.281 
+LEV	 - 	 -	    -		  -
+EDM	 - 	 -	    -		  -
+TLT	 - 	 -	    -		  -
+SRN	 - 	 -	    -		  -
+
+Total misfit of the preferred model   11.934
+
+*******************************************************************************
+  Forward Models 
+*******************************************************************************
+Ellipsoid Point Source (Davis, 1986)
+
+*******************************************************************************
+  Unknowns 
+*******************************************************************************
+Parameter	Best		Range			Status
+xcen		4.26323e+05	(422000.0, 432000.0)	 true
+ycen		4.51877e+06	(4515000.0, 4525000.0)	 true
+depth		3.15586e+03	(2000.0, 7000.0)	 true
+Pxx		1.41318e+07	(1000000.0, 100000000.0)	 true
+Pyy		1.74554e+07	(1000000.0, 100000000.0)	 true
+Pzz		1.90195e+07	(1000000.0, 100000000.0)	 true
+Pxy		0.00000e+00	(0.0, 0.0) fixed
+Pyz		0.00000e+00	(0.0, 0.0) fixed
+Pzx		0.00000e+00	(0.0, 0.0) fixed
+
+*******************************************************************************
+  Global Optimization 
+*******************************************************************************
+Neighbourhood Algorithm 
+n.Samples	n.Resamples	n.Iterations
+1000		300		14
+
+Total number of models generated 14000
+
+*******************************************************************************
+  All input - VSM style 
+*******************************************************************************
+../USECASE/momten1NA/
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt 
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+0.5
+0.5
+0.0
+0.0
+0.0
+0.0
+5.00e+09
+0.25
+1
+4
+422000.0	432000.0	xcen
+4515000.0	4525000.0	ycen
+2000.0	7000.0	depth
+1000000.0	100000000.0	Pxx
+1000000.0	100000000.0	Pyy
+1000000.0	100000000.0	Pzz
+0.0	0.0	Pxy
+0.0	0.0	Pyz
+0.0	0.0	Pzx
+0
+1000 300
+14
+y 3000
