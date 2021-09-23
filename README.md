@@ -1,5 +1,5 @@
 # VSM test
-Tests of the VSM tool.
+Tests of the VSM tool. Code in https://github.com/EliTras/VSM
 
 The folders (e.g., the test mogi1NA) are organized as
 
