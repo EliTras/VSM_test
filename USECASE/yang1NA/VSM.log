@@ -1,0 +1,122 @@
+*******************************************************************************
+   VSM
+
+   Volcanic and Seismic source Modelling
+
+   Author: Elisa Trasatti, elisa.trasatti@ingv.it
+   Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
+
+   Thanks to: M. Sambridge (NA inversion)
+              N. Piana Agostinetti (first fortran version)
+              And others for python codes (mostly grabbed from GitHub and PyPI)
+
+   Created      2007
+   Last update  September 2021
+
+   License: E. Trasatti, covered by GNU-GPL License
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+      * Redistributions of source code must retain the above copyright 
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright 
+ 	notice, this list of conditions and the following disclaimer in 
+ 	the documentation and/or other materials provided with the distribution.
+      * Please cite until published as
+        Trasatti, E. (2019). Volcano and Seismic source Modelling - VSM.
+ 	www.rohub.org/rodetails/volcano_source_moddelling_vsm-release/overview,
+        https://doi.org/10.24424/ro-id.HRFPNERWFQ
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************
+
+
+*******************************************************************************
+VSM launched on 2021-09-21 12:07:38.692627
+VSM ended on    2021-09-21 12:10:35.620159
+*******************************************************************************
+
+
+*******************************************************************************
+  Misfits 
+*******************************************************************************
+Dataset	n.Data	Weight	Misfit_null	Misfit
+SAR	5530	  0.5000	  30.183	   5.510 
+GPS	14	  0.5000	 933.810	  17.236 
+LEV	 - 	 -	    -		  -
+EDM	 - 	 -	    -		  -
+TLT	 - 	 -	    -		  -
+SRN	 - 	 -	    -		  -
+
+Total misfit of the preferred model   11.373
+
+*******************************************************************************
+  Forward Models 
+*******************************************************************************
+Spheroid Finite Volume (Yang et al., 1988)
+
+*******************************************************************************
+  Unknowns 
+*******************************************************************************
+Parameter	Best		Range			Status
+xcen		4.26285e+05	(422000.0, 432000.0)	 true
+ycen		4.51880e+06	(4515000.0, 4525000.0)	 true
+depth		2.85134e+03	(2000.0, 7000.0)	 true
+s_axis_max	1.55148e+03	(500.0, 4000.0)	 true
+ratio		3.00000e-01	(0.3, 0.3) fixed
+dP_mu		4.24726e-03	(0.0001, 0.01)	 true
+strike		8.88867e+01	(-50.0, 130.0)	 true
+dip		2.64391e+01	(0.1, 30.0)	 true
+
+*******************************************************************************
+  Global Optimization 
+*******************************************************************************
+Neighbourhood Algorithm 
+n.Samples	n.Resamples	n.Iterations
+1000		300		20
+
+Total number of models generated 20000
+
+*******************************************************************************
+  All input - VSM style 
+*******************************************************************************
+../USECASE/yang1NA/
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt 
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+0.5
+0.5
+0.0
+0.0
+0.0
+0.0
+5.00e+09
+0.25
+1
+3
+422000.0	432000.0	xcen
+4515000.0	4525000.0	ycen
+2000.0	7000.0	depth
+500.0	4000.0	s_axis_max
+0.3	0.3	ratio
+0.0001	0.01	dP_mu
+-50.0	130.0	strike
+0.1	30.0	dip
+0
+1000 300
+20
+y 5000
