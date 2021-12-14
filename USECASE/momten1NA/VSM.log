@@ -6,30 +6,18 @@
    Author: Elisa Trasatti, elisa.trasatti@ingv.it
    Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
 
-   Thanks to: M. Sambridge (NA inversion)
-              N. Piana Agostinetti (first fortran version)
-              And others for python codes (mostly grabbed from GitHub and PyPI)
-
-   Created      2007
-   Last update  September 2021
-
    License: E. Trasatti, covered by GNU-GPL License
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are met:
-
       * Redistributions of source code must retain the above copyright 
         notice, this list of conditions and the following disclaimer.
-      * Redistributions in binary form must reproduce the above copyright 
- 	notice, this list of conditions and the following disclaimer in 
- 	the documentation and/or other materials provided with the distribution.
-      * Please cite until published as
-        Trasatti, E. (2019). Volcano and Seismic source Modelling - VSM.
- 	www.rohub.org/rodetails/volcano_source_moddelling_vsm-release/overview,
-        https://doi.org/10.24424/ro-id.HRFPNERWFQ
+      * Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in
+        the documentation and/or other materials provided with the distribution.
 
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
    ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
@@ -76,9 +64,9 @@ depth		3.15586e+03	(2000.0, 7000.0)	 true
 Pxx		1.41318e+07	(1000000.0, 100000000.0)	 true
 Pyy		1.74554e+07	(1000000.0, 100000000.0)	 true
 Pzz		1.90195e+07	(1000000.0, 100000000.0)	 true
-Pxy		0.00000e+00	(0.0, 0.0) fixed
-Pyz		0.00000e+00	(0.0, 0.0) fixed
-Pzx		0.00000e+00	(0.0, 0.0) fixed
+Pxy		0.00000e+00	(0.0, 0.0) false
+Pyz		0.00000e+00	(0.0, 0.0) false
+Pzx		0.00000e+00	(0.0, 0.0) false
 
 *******************************************************************************
   Global Optimization 
@@ -121,4 +109,4 @@ None
 0
 1000 300
 14
-y 3000
+3000
