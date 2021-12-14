@@ -1,0 +1,102 @@
+*******************************************************************************
+   VSM
+
+   Volcanic and Seismic source Modelling
+
+   Author: Elisa Trasatti, elisa.trasatti@ingv.it
+   Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
+
+   License: E. Trasatti, covered by GNU-GPL License
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+      * Redistributions of source code must retain the above copyright 
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in
+        the documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************
+
+
+*******************************************************************************
+VSM launched on 2021-12-14 14:46:59.720386
+VSM ended on    2021-12-14 14:47:20.132625
+*******************************************************************************
+
+
+*******************************************************************************
+  Misfits 
+*******************************************************************************
+Dataset	n.Data	Weight	Misfit_null	Misfit
+SAR	5530	  0.5000	  30.183	   5.137 
+GPS	14	  0.5000	 933.810	  13.701 
+LEV	 - 	 -	    -		  -
+EDM	 - 	 -	    -		  -
+TLT	 - 	 -	    -		  -
+SRN	 - 	 -	    -		  -
+
+Total misfit of the preferred model    9.419
+
+*******************************************************************************
+  Forward Models 
+*******************************************************************************
+Mogi Point Source (Mogi, 1958)
+
+*******************************************************************************
+  Unknowns 
+*******************************************************************************
+Parameter	Best		Range			Status
+xcen		4.26291e+05	(422000.0, 432000.0)	 true
+ycen		4.51876e+06	(4515000.0, 4525000.0)	 true
+depth		2.71242e+03	(2000.0, 6000.0)	 true
+dVol		5.40709e+06	(1000000.0, 20000000.0)	 true
+
+*******************************************************************************
+  Global Optimization 
+*******************************************************************************
+Neighbourhood Algorithm 
+n.Samples	n.Resamples	n.Iterations
+1000		300		10
+
+Total number of models generated 10000
+
+*******************************************************************************
+  All input - VSM style 
+*******************************************************************************
+../USECASE/mogi1NA/
+../DATA/CF_2011_13/obs_sar1.txt ../DATA/CF_2011_13/obs_sar2.txt 
+../DATA/CF_2011_13/obs_gps.txt
+None
+None
+None
+None
+0.5
+0.5
+0.0
+0.0
+0.0
+0.0
+5.00e+10
+0.25
+1
+0
+422000.0	432000.0	xcen
+4515000.0	4525000.0	ycen
+2000.0	6000.0	depth
+1000000.0	20000000.0	dVol
+0
+1000 300
+10
+1000
