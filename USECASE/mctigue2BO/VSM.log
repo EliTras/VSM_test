@@ -6,30 +6,18 @@
    Author: Elisa Trasatti, elisa.trasatti@ingv.it
    Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
 
-   Thanks to: M. Sambridge (NA inversion)
-              N. Piana Agostinetti (first fortran version)
-              And others for python codes (mostly grabbed from GitHub and PyPI)
-
-   Created      2007
-   Last update  September 2021
-
    License: E. Trasatti, covered by GNU-GPL License
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are met:
-
       * Redistributions of source code must retain the above copyright 
         notice, this list of conditions and the following disclaimer.
-      * Redistributions in binary form must reproduce the above copyright 
- 	notice, this list of conditions and the following disclaimer in 
- 	the documentation and/or other materials provided with the distribution.
-      * Please cite until published as
-        Trasatti, E. (2019). Volcano and Seismic source Modelling - VSM.
- 	www.rohub.org/rodetails/volcano_source_moddelling_vsm-release/overview,
-        https://doi.org/10.24424/ro-id.HRFPNERWFQ
+      * Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in
+        the documentation and/or other materials provided with the distribution.
 
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
    ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
@@ -73,7 +61,7 @@ Parameter	Mean		Sigma		Range			Status
 xcen		4.26325e+05	1.09329e+01	(422000.0, 432000.0)	 true
 ycen		4.51883e+06	1.05745e+01	(4515000.0, 4525000.0)	 true
 depth		2.59883e+03	1.73120e+01	(2000.0, 7000.0)	 true
-radius		8.00000e+02	0.0		(800.0, 800.0) fixed
+radius		8.00000e+02	0.0		(800.0, 800.0) false
 dP_mu		3.18163e-03	3.11407e-05	(0.0001, 0.01)	 true
 
 *******************************************************************************
@@ -113,4 +101,4 @@ None
 1
 8 10
 7000
-y 2000
+2000
