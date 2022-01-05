@@ -69,7 +69,7 @@ Pyz		0.00000e+00	(0.0, 0.0) false
 Pzx		0.00000e+00	(0.0, 0.0) false
 
 *******************************************************************************
-  Global Optimization 
+  Data Inversion 
 *******************************************************************************
 Neighbourhood Algorithm 
 n.Samples	n.Resamples	n.Iterations
