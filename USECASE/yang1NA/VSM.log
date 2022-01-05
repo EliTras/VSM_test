@@ -68,7 +68,7 @@ strike		8.88867e+01	(-50.0, 130.0)	 true
 dip		2.64391e+01	(0.1, 30.0)	 true
 
 *******************************************************************************
-  Global Optimization 
+  Data Inversion 
 *******************************************************************************
 Neighbourhood Algorithm 
 n.Samples	n.Resamples	n.Iterations
