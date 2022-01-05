@@ -65,7 +65,7 @@ radius		9.26141e+02	(500.0, 4000.0)	 true
 dP_mu		2.16063e-03	(0.0001, 0.01)	 true
 
 *******************************************************************************
-  Global Optimization 
+  Data Inversion 
 *******************************************************************************
 Neighbourhood Algorithm 
 n.Samples	n.Resamples	n.Iterations
