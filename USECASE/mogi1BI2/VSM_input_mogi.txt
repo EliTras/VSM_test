@@ -1,0 +1,25 @@
+../USECASE/mogi1BI2
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+1.0
+1.0
+0.0
+0.0
+0.0
+0.1
+5e9
+0.25
+1
+0
+422000. 432000. X_c
+4515000. 4525000. Y_c
+2000. 7000. Z_c
+1.e6 2.e7 DV
+1
+10
+8000
+2000

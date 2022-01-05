@@ -1,0 +1,112 @@
+*******************************************************************************
+   VSM
+
+   Volcanic and Seismic source Modelling
+
+   Author: Elisa Trasatti, elisa.trasatti@ingv.it
+   Istituto Nazionale di Geofisica e Vulcanologia - Rome (Italy)
+
+   License: E. Trasatti, covered by GNU-GPL License
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+      * Redistributions of source code must retain the above copyright 
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in
+        the documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPY RIGHT OWNER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*******************************************************************************
+
+
+*******************************************************************************
+VSM launched on 2021-09-15 15:07:40.664085
+VSM ended on    2021-09-15 15:12:08.459110
+*******************************************************************************
+
+
+*******************************************************************************
+  Misfits 
+*******************************************************************************
+Dataset	n.Data	Weight	Misfit_null	Misfit
+SAR	5530	  0.1667	  30.183	   4.571 
+GPS	14	  0.8333	 933.810	  16.747 
+LEV	 - 	 -	    -		  -
+EDM	 - 	 -	    -		  -
+TLT	 - 	 -	    -		  -
+SRN	 - 	 -	    -		  -
+
+Total misfit of the preferred model   14.717
+
+*******************************************************************************
+  Forward Models 
+*******************************************************************************
+Ellipsoid Point Source (Davis, 1986)
+
+*******************************************************************************
+  Unknowns 
+*******************************************************************************
+Parameter	Mean		Sigma		Range			Status
+xcen		4.26279e+05	9.84479e+01	(422000.0, 432000.0)	 true
+ycen		4.51874e+06	1.08482e+02	(4515000.0, 4525000.0)	 true
+depth		3.00808e+03	5.17642e+02	(2000.0, 7000.0)	 true
+Pxx		1.41238e+07	3.01914e+06	(1000000.0, 100000000.0)	 true
+Pyy		1.65124e+07	1.33823e+06	(1000000.0, 100000000.0)	 true
+Pzz		1.78768e+07	3.15269e+06	(1000000.0, 100000000.0)	 true
+Pxy		0.00000e+00	0.0		(0.0, 0.0) false
+Pyz		0.00000e+00	0.0		(0.0, 0.0) false
+Pzx		0.00000e+00	0.0		(0.0, 0.0) false
+
+*******************************************************************************
+  Data Inversion 
+*******************************************************************************
+Bayesian Inference 
+n.Rand.Walks	n.Steps
+14		8000
+
+Total number of models generated 112000
+
+*******************************************************************************
+  All input - VSM style 
+*******************************************************************************
+../USECASE/momten1BI/
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt 
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+0.16666666666666666
+0.8333333333333334
+0.0
+0.0
+0.0
+0.0
+5.00e+09
+0.25
+1
+4
+422000.0	432000.0	xcen
+4515000.0	4525000.0	ycen
+2000.0	7000.0	depth
+1000000.0	100000000.0	Pxx
+1000000.0	100000000.0	Pyy
+1000000.0	100000000.0	Pzz
+0.0	0.0	Pxy
+0.0	0.0	Pyz
+0.0	0.0	Pzx
+1
+14 10
+8000
+3000
