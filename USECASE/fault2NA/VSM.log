@@ -70,7 +70,7 @@ param2		0.00000e+00	(0.0, 0.0) false
 opening		3.83230e+00	(0.1, 4.0)	 true
 
 *******************************************************************************
-  Global Optimization 
+  Data Inversion 
 *******************************************************************************
 Neighbourhood Algorithm 
 n.Samples	n.Resamples	n.Iterations
