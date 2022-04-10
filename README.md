@@ -16,4 +16,5 @@ while the VSM package should be in
 <path>/VSM/
 
 All the tests use data from the 2011-2013 unrest at Campi Flegrei caldera (Italy). GPS data are from INGV-OV network, InSAR data are processed by INGV from COSMO-SkyMed images (ASI, Agenzia Spaziale Italiana).
-Tests 'sill2NA' and 'sill2BI' contain Jupyter Notebooks also.
+
+  Tests 'sill2NA' and 'sill2BI' contain Jupyter Notebooks also.
