@@ -16,7 +16,7 @@ All the tests use data from the 2011-2013 unrest at Campi Flegrei caldera (Italy
 
   Tests _sill2NA_ and _sill2BI_ contain Jupyter Notebooks also.
 
-  For any inquires, please write to elisa.trasatti@ingv.it
+  For any enquires, please write to elisa.trasatti@ingv.it
 
 Currently submitted for publication. Until published cite as: \
 _Trasatti, E. (2022). "Volcanic and Seismic source Modelling (VSM). The Python toolkit for modelling geodetic data." ROHub. https://doi.org/10.24424/t83f-5t97._
