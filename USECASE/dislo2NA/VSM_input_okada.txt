@@ -1,0 +1,31 @@
+../USECASE/dislo2NA
+../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt
+../USECASE/DATA/GPS_data.txt
+None
+None
+None
+None
+1.0
+1.0
+0.0
+0.0
+0.0
+0.1
+5e9
+0.25
+1
+5 R
+422000. 432000. X_c
+4515000. 4525000. Y_c
+2000. 7000. Z_c
+500. 4000. length
+500  4000. width
+90. 90. strike
+0.1 30. dip
+0. 0. slip
+0. 0. rake
+0.1 4. opening
+0
+1000 300
+18
+6000
