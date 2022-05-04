@@ -1,4 +1,4 @@
-../USECASE/fault1BI
+../USECASE/disloBI
 ../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt
 ../USECASE/DATA/GPS_data.txt
 None
