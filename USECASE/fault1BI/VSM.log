@@ -81,7 +81,7 @@ Total number of models generated 70000
 *******************************************************************************
   All input - VSM style 
 *******************************************************************************
-../USECASE/disloBI/
+../USECASE/dislo1BI/
 ../USECASE/DATA/obs_sar1.txt ../USECASE/DATA/obs_sar2.txt 
 ../USECASE/DATA/GPS_data.txt
 None
