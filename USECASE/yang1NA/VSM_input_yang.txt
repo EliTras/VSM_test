@@ -20,7 +20,7 @@ None
 2000. 7000. Z_c
 500. 4000. Axis
 .3 .3 ratio
-1e-4 1e-2 ratio
+1e-4 1e-2 dP_mu
 -50. 130. strike
 0.1 30. dip
 0
