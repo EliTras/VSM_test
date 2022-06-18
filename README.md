@@ -18,5 +18,4 @@ All the tests use data from the 2011-2013 unrest at Campi Flegrei caldera (Italy
 
   For any enquires, please write to elisa.trasatti@ingv.it
 
-Cite as \
 Trasatti, E. (2022). "Volcanic and Seismic source Modelling (VSM). An Open Tool for Geodetic Data Modeling", Frontiers in Earth Science, doi: 10.3389/feart.2022.917222
